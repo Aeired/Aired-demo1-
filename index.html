@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aired</title>
+<style>
+ 
+ body{
+  background-color: #000;
+}
+
+  .main-container {
+    background-color: #000;
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+  }
+
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 791px;
+    width: 100%;
+    justify-content: center;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    
+  }
+
+  @media (max-width: 991px) {
+    .header-section {
+      max-width: 100%;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+
+  .header-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .header-nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 42px 240px;
+  }
+
+  @media (max-width: 991px) {
+    .header-nav {
+      max-width: 100%;
+      white-space: initial;
+      margin: 0 10px 40px 0;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 130%;
+  }
+
+  @media (max-width: 991px) {
+    .nav-links {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+
+  .projects-link {
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+  .about-link {
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+  }
+
+  .ai-title {
+    color: #f00;
+    letter-spacing: -2.56px;
+    align-self: center;
+    margin-top: 265px;
+    font: 128px/120% Newsreader, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .ai-title {
+      margin-top: 40px;
+      font-size: 40px;
+    }
+  }
+
+  .content-section {
+    display: flex;
+    margin-top: 22px;
+    width: 100%;
+    flex-direction: column;
+    color: #fff;
+  }
+
+  @media (max-width: 991px) {
+    .content-section {
+      max-width: 100%;
+    }
+  }
+
+  .content-image {
+    aspect-ratio: 2.04;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-width: 1350px;
+  }
+
+  @media (max-width: 991px) {
+    .content-image {
+      max-width: 100%;
+    }
+  }
+
+  .content-description {
+    align-self: center;
+    display: flex;
+    margin-top: 26px;
+    width: 100%;
+    max-width: 1035px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .content-description {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
+  .description-header, .description-text {
+    font-family: Inter, sans-serif;
+  }
+
+</style>
+</head>
+<body>
+<div class="main-container">
+  <section class="header-section">
+    <img loading="lazy" srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&"alt="Decorative header image" class="header-image" />
+    <nav class="header-nav">
+      <div class="nav-links">
+        <a href=demo.html p class="projects-link">PROJECTS</a>
+        <p class="about-link">ABOUT</p>
+      </div>
+      <h1 class="ai-title">AIRED</h1>
+    </nav>
+  </section>
+  <section class="content-section">
+    <img loading="lazy" srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&"alt="Decorative content image" class="content-image" />
+    <div class="content-description">
+      <h2 class="description-header">WHat IS AIRED</h2>
+      <p class="description-text">We believe in produce. Tasty produce. Produce like:<br /><br />Apples. Oranges. Limes. Lemons. Guavas. Carrots. Cucumbers. Jicamas. Cauliflowers. Brussels sprouts. Shallots. Japanese eggplants. Asparagus. Artichokes—Jerusalem artichokes, too. Radishes. Broccoli. Baby broccoli. Broccolini. Bok choy. Scallions. Ginger. Cherries. Raspberries. Cilantro. Parsley. Dill.<br /><br />What are we forgetting?<br /><br />Oh! Onions. Yams. Avocados. Lettuce. Arugula (to some, “rocket”). Persian cucumbers, in addition to aforementioned “normal” cucumbers. Artichokes. Zucchinis. Pumpkins. Squash (what some cultures call pumpkins). Sweet potatoes and potato-potatoes. Jackfruit. Monk fruit. Fruit of the Loom. Fruits of our labor (this website). Sorrel. Pineapple. Mango. Gooseberries. Blackberries. Tomatoes. Heirloom tomatoes. Beets. Chives. Corn. Endive. Escarole, which, we swear, we’re vendors of organic produce, but if you asked us to describe what escaroles are...</p>
+    </div>
+  </section>
+</div>
+</body>
+</html>
